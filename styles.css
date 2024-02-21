@@ -5,8 +5,10 @@
     margin: auto;
 }
 
+
 .established {
     font-style: italic;
+    text-align: center;
 }
 
 h1 {
@@ -30,7 +32,6 @@ h1, h2 {
 }
 
 p {
-    text-align: center;
     color: #ffffffee;
     font-size: 20px;
     font-family: Arial, sans-serif;
@@ -50,14 +51,7 @@ p {
     width: 20%;
 }
 
-.milk {
-    text-align: left;
-    display: inline-block;
-    width: 50%;
-}
-
-.sugar {
-    text-align: right;
-    display: inline-block;
-    width: 50%;
+.flex-container {
+    display: flex;
+    justify-content: space-between;
 }
